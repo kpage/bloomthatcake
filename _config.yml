@@ -2,9 +2,9 @@
 # Site
 
 title: Treat Template
-url: "https://spring-bat.cloudvent.net/"
-baseurl:
-google_analytics_key:
+url: "https://bloomthatcake.com/"
+baseurl: ""
+google_analytics_key: "UA-176745742-1"
 newsletter_action:
 disqus_shortname:
 
