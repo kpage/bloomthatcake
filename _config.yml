@@ -3,10 +3,10 @@
 
 title: Bloom That Cake
 url: "https://bloomthatcake.com/"
-baseurl: ""
+baseurl:
 google_analytics_key: UA-176745742-1
-newsletter_action: ""
-disqus_shortname: ""
+newsletter_action:
+disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
