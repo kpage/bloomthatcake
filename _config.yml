@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Treat Template
+title: Bloom That Cake
 url: "https://bloomthatcake.com/"
 baseurl: ""
-google_analytics_key: "UA-176745742-1"
-newsletter_action:
-disqus_shortname:
+google_analytics_key: UA-176745742-1
+newsletter_action: ""
+disqus_shortname: ""
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Food blog template for Jekyll.
+description: Buttercream flower cake decoration site.
 author:
-  name:
+  name: YS Sim
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Treat Template
+  name: Bloom That Cake
   links:
-    - https://github.com/CloudCannon/treat-jekyll-template
+    - https://www.instagram.com/bloom_that_cake/
 
 # -----
 # Build
@@ -78,7 +78,6 @@ social_icons:
   - Instagram
   - Pinterest
   - YouTube
-  - RSS
 
 _options:
   author_image:
