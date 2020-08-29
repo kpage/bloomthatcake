@@ -4,7 +4,13 @@ layout: default
 <article class="post">
 	{% include post-heading.html post=page post_page=true %}
 	<div class="image">
+		{% if page.youtube_video_id %}
+		<a href="https://www.youtube.com/watch?v={{ page.youtube_video_id }}">
+		{% endif %}
 		<img src="{{ page.featured_image }}" alt="{{ page.title }}">
+		{% if page.youtube_video_id %}
+		</a>
+		{% endif %}
 	</div>
 
 	<div class="recipe-body">

@@ -6,12 +6,14 @@ title: Home
 		<article class="post">
 			{% include post-heading.html post=post %}
 			<div class="image">
+				<a href="https://www.youtube.com/watch?v={{ post.youtube_video_id }}">
 				<img src="{{ post.featured_image }}" alt="{{ post.title }}">
+				</a>
 			</div>
 
 			{{ post.excerpt }}
 
-			<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+			<p><a class="button" href="https://www.youtube.com/watch?v={{ post.youtube_video_id }}">Watch on YouTube</a></p>
 		</article>
 	{% endfor %}
 

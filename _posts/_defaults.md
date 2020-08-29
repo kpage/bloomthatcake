@@ -3,6 +3,7 @@ title:
 categories:
 date:
 featured_image:
+youtube_link:
 recipe:
   servings:
   prep:
